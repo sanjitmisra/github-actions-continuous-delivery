@@ -1,0 +1,11 @@
+name: Staging deployment
+
+on: 
+  pull-request:
+    types: [labeled]
+
+jobs:
+  build:
+    runs-on: ubunti-latest
+
+  
